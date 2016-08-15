@@ -55,10 +55,10 @@ class FPSLabel: UILabel {
         
         count = 0
         
-        let t = String(format: "%02.0f帧",round(fps))
+        text = String(format: "%02.0f帧",round(fps))
         
         // 打印帧数
-        print(t ?? "0")
+        print(text ?? "0")
         
     }
 }
